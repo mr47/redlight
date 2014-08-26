@@ -1,0 +1,186 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.header-img{
+    background:url("@{base-img-path}header.png") no-repeat center;
+    padding-top:7px;
+    height:320px;
+    background-size: cover;
+}
+.logo{
+    background:url("@{base-img-path}logo.png") no-repeat center;
+    width:211px;
+    height:70px;
+    margin-top:7px;
+}
+.header-text{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+.block{
+    background:#d54643;
+    border-radius:5px;
+    border:1px solid #c9312e;
+    border-bottom:3px solid #c9312e;
+    padding:0;
+    margin: 3%;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.39);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.39);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.39);   
+    
+}
+.block-style-glass{
+    background: url("@{base-img-path}block-glass-style.png") center no-repeat,#d54643;
+    background-size:cover;  
+}
+.user-picture{
+    border-radius:100%;
+    width:128px;
+    height:128px;
+    background:url("@{base-img-path}user-pic.png");
+    background-size:cover;
+    border: 5px solid white;
+    .center-block;
+}
+.block-style-1{
+        ul{
+            list-style:none;
+            padding-left:0px;
+            li{
+                height:60px;
+                border-bottom:1px solid rgba(255,255,255,0.5);
+                .spacer{
+                    padding:20px;
+                }
+                .marker{
+                }
+                .fixer{
+                    color:white;
+                    text-decoration:none;
+                    padding-left:15px;
+                }
+                a{.fixer;padding-left:50px;}
+                span {.fixer;}
+                &:hover{
+                    background: #dc6361;
+                }
+                &:last-child{
+                    border-bottom:none;
+                }
+            }
+        }
+    height:250px;    
+}
+
+.block-style-2{
+    height:280px;
+    margin-top:50px;
+    background: url("@{base-img-path}block-bg.png"),url("@{base-img-path}ny.png") center no-repeat;
+    background-size:cover;
+    .user-picture{
+        position: relative;
+        top: -22%;
+    }
+    .user-header-text{
+        color: #555656;
+        padding: 5px;
+        text-align: center;
+        font-size: 0.75em;
+        margin-top: -62px;
+    }
+    .strape{
+        height:40px;
+        width:100%;
+        clear:both;
+        background:white;
+        -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box;
+        border-top:1px solid rgba(193, 191, 191, 0.5);
+        border-bottom:1px solid rgba(193, 191, 191, 0.5);
+        span{
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            margin-top: 9px;
+            font-size:1em;
+            color: #d54643;
+        }
+    }
+    .follow-button{
+        padding-top:30px;
+        button{
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 3px;
+        }
+        span{
+            padding-top: 13px;
+            font-size: 0.6em;
+            color: #555656;
+            text-align:center;
+            .center-block;
+        }
+    }
+} 
+.block-style-3{
+    width:600px;
+    height:400px;
+    overflow:hidden;
+    font-family:'Open Sans',sans-serif;
+    .carousel-indicators{
+        top: 20px;
+        bottom:none;
+    }
+    .carousel-caption{
+        left:0!important;
+        right:0!important;
+        background:rgba(213,70,67,0.5);
+        text-shadow:none;
+        padding-bottom: 20px;
+        //#d54643;
+    }
+}
+.block-style-4{
+    height:200px; 
+    font-family: 'Open Sans',sans-serif;
+    .loader{
+        width: 100px;
+        height: 20px;
+        margin-top: 90px;
+    }
+    .loading{
+        width: 100%;
+        padding-left: 28px;
+        color: white;
+        padding-top: 5px;
+        font-size: 10pt;
+    }
+}
+.block-style-5{
+    height:400px;
+    .user-picture{
+        margin-top:30px;
+    }
+    .input-group{
+        padding:7% 7% 0% 7%;
+    }
+   .form-control,.input-group-addon{
+        border-radius:2px;
+        //border-color:#373737;
+    }
+    input[type="checkbox"] {
+        position: absolute;
+        margin-left: -16px;
+        margin-top: 2px;
+    }
+    .checkbox {
+        padding-left: 20px;
+        color: white;
+        font-size: 10pt;
+    }
+    .action-buttons{
+        width: 140px;
+    }
+}
